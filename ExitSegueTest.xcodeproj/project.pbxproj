@@ -21,6 +21,8 @@
 		D60DE03A187C4172003539E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60DE01C187C4171003539E6 /* UIKit.framework */; };
 		D60DE042187C4172003539E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D60DE040187C4172003539E6 /* InfoPlist.strings */; };
 		D60DE044187C4172003539E6 /* ExitSegueTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DE043187C4172003539E6 /* ExitSegueTestTests.m */; };
+		D60DE04F187C47EB003539E6 /* PopoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DE04E187C47EB003539E6 /* PopoverTableViewController.m */; };
+		D60DE051187C48EE003539E6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60DE050187C48EE003539E6 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D60DE03F187C4172003539E6 /* ExitSegueTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExitSegueTestTests-Info.plist"; sourceTree = "<group>"; };
 		D60DE041187C4172003539E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D60DE043187C4172003539E6 /* ExitSegueTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExitSegueTestTests.m; sourceTree = "<group>"; };
+		D60DE04D187C47EB003539E6 /* PopoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverTableViewController.h; sourceTree = "<group>"; };
+		D60DE04E187C47EB003539E6 /* PopoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverTableViewController.m; sourceTree = "<group>"; };
+		D60DE050187C48EE003539E6 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				D60DE027187C4171003539E6 /* AppDelegate.h */,
 				D60DE028187C4171003539E6 /* AppDelegate.m */,
 				D60DE02A187C4171003539E6 /* Main.storyboard */,
+				D60DE050187C48EE003539E6 /* TableViewCell.xib */,
+				D60DE04D187C47EB003539E6 /* PopoverTableViewController.h */,
+				D60DE04E187C47EB003539E6 /* PopoverTableViewController.m */,
 				D60DE02D187C4171003539E6 /* ViewController.h */,
 				D60DE02E187C4171003539E6 /* ViewController.m */,
 				D60DE030187C4171003539E6 /* Images.xcassets */,
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60DE031187C4171003539E6 /* Images.xcassets in Resources */,
+				D60DE051187C48EE003539E6 /* TableViewCell.xib in Resources */,
 				D60DE023187C4171003539E6 /* InfoPlist.strings in Resources */,
 				D60DE02C187C4171003539E6 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60DE02F187C4171003539E6 /* ViewController.m in Sources */,
+				D60DE04F187C47EB003539E6 /* PopoverTableViewController.m in Sources */,
 				D60DE029187C4171003539E6 /* AppDelegate.m in Sources */,
 				D60DE025187C4171003539E6 /* main.m in Sources */,
 			);
